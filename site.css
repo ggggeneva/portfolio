@@ -1,0 +1,93 @@
+img{
+  width:100%
+}
+
+body {
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: 1em;
+}
+
+p{
+  margin: 0;
+}
+
+p.bold{
+  font-weight: bold;
+}
+
+.gz-page{
+  position: relative;
+  padding: 2% 2% 0 2%;
+}
+
+.gz-info-container{
+  position: fixed;
+  width: 20%;
+}
+
+.gz-project-container{
+  float: right;
+  width: 80%;
+}
+
+.gz-project-contents{
+  float: left;
+  padding-left: 3%;
+  padding-bottom: 4%;
+}
+
+.gz-project--info{
+  position: relative;
+  width: 32%;
+}
+
+.gz-project--images{
+  width: 62%;
+}
+
+.gz-project--images-duo-small{
+  width: 40%;
+  display: inline-block;
+}
+
+.gz-project--images-duo-big{
+  width: 58%;
+  display: inline-block;
+}
+
+.gz-project--images-duo-even{
+  width: 48%;
+  display: inline-block;
+  margin-bottom: 3%;
+}
+
+.gz-project--images-duo-even-left{
+  margin-right: 2%;
+}
+
+.gz-project--video-container{
+  position: relative;
+  padding-top: 56.25%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.gz-project--video-responsive {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gz-project--image-border{
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
+}
