@@ -91,3 +91,45 @@ p.bold{
   border-width: thin;
   border-style: solid;
 }
+
+@media only screen and (max-width:830px) {
+  body{
+  }
+
+  .gz-info-container{
+    position: relative;
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+  .gz-project-container{
+    position: relative;
+    width: 100%;
+  }
+
+  .gz-project-contents{
+    position: relative;
+    padding-left: 0%;
+  }
+
+  .gz-project--info{
+    position: relative;
+    width: 100%;
+  }
+
+  .gz-project--images{
+    width: 100%;
+  }
+
+  .gz-project--images-duo-small{
+    width: 100%;
+  }
+
+  .gz-project--images-duo-big{
+    width: 100%;
+  }
+
+  .gz-project--images-duo-even{
+    width: 100%;
+  }
+}
